@@ -30,7 +30,7 @@ Create the conda environment:
 
 ```bash
 mamba create -n hawkes-earthquakes python=3.12 numpy pandas matplotlib scipy jupyter seaborn
-````
+```
 
 Activate the environment:
 
