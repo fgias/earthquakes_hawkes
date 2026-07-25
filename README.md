@@ -150,7 +150,7 @@ Introduce self-excitation:
 $$
 \lambda(t)=
 \mu+
-\sum_{t_i<t}
+\sum_{i:t_i<t}
 \alpha e^{-\beta(t-t_i)}
 $$
 
