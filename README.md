@@ -126,9 +126,9 @@ Tasks:
 
 Build a baseline model:
 
-[
+$$
 \lambda(t)=\lambda
-]
+$$
 
 Assumption:
 
@@ -147,12 +147,12 @@ Tasks:
 
 Introduce self-excitation:
 
-[
+$$
 \lambda(t)=
 \mu+
 \sum_{t_i<t}
 \alpha e^{-\beta(t-t_i)}
-]
+$$
 
 Parameters:
 
@@ -166,9 +166,9 @@ Tasks:
 * Fit parameters using maximum likelihood
 * Estimate branching ratio:
 
-[
+$$
 n=\frac{\alpha}{\beta}
-]
+$$
 
 ---
 
@@ -196,19 +196,19 @@ Extend Hawkes by including earthquake magnitude.
 
 Events become:
 
-[
+$$
 (t_i,M_i)
-]
+$$
 
 Model:
 
-[
+$$
 \lambda(t)=
 \mu+
 \sum_i
 K e^{a(M_i-M_0)}
 e^{-\beta(t-t_i)}
-]
+$$
 
 Parameters:
 
@@ -228,17 +228,17 @@ Validate the model using the time-rescaling theorem.
 
 For a correct model:
 
-[
+$$
 z_i=
 \int_{t_{i-1}}^{t_i}
 \lambda(t)dt
-]
+$$
 
 should follow:
 
-[
+$$
 z_i\sim Exp(1)
-]
+$$
 
 Diagnostics:
 
@@ -262,13 +262,13 @@ The model combines:
 
 Model:
 
-[
+$$
 \lambda(t)=
 \mu+
 \sum_i
 K e^{a(M_i-M_0)}
 \frac{1}{(t-t_i+c)^p}
-]
+$$
 
 Parameters:
 
@@ -296,9 +296,9 @@ Lower is better.
 
 A good model should produce:
 
-[
+$$
 z_i\sim Exp(1)
-]
+$$
 
 Evaluated with:
 
