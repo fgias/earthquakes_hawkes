@@ -224,7 +224,7 @@ $$
 should follow:
 
 $$
-z_i\sim \operatorname{Exp}(1)
+z_i\sim \text{Exp}(1)
 $$
 
 Diagnostics:
@@ -280,7 +280,7 @@ Lower is better.
 A good model should produce:
 
 $$
-z_i\sim \operatorname{Exp}(1)
+z_i\sim \text{Exp}(1)
 $$
 
 Evaluated with:
