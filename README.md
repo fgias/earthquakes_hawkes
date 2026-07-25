@@ -203,7 +203,7 @@ $$
 \mu+
 \sum_i
 K e^{a(M_i-M_0)}
-e^{-\beta(t-t_i)}
+ e^{-\beta(t-t_i)}
 $$
 
 Parameters:
@@ -227,13 +227,13 @@ For a correct model:
 $$
 z_i=
 \int_{t_{i-1}}^{t_i}
-\lambda(t)dt
+\lambda(t)\,dt
 $$
 
 should follow:
 
 $$
-z_i\sim Exp(1)
+z_i\sim \operatorname{Exp}(1)
 $$
 
 Diagnostics:
@@ -293,7 +293,7 @@ Lower is better.
 A good model should produce:
 
 $$
-z_i\sim Exp(1)
+z_i\sim \operatorname{Exp}(1)
 $$
 
 Evaluated with:
