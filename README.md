@@ -148,10 +148,7 @@ Tasks:
 Introduce self-excitation:
 
 $$
-\lambda(t)=
-\mu+
-\sum_{i:t_i<t}
-\alpha e^{-\beta(t-t_i)}
+\lambda(t)=\mu+\sum_{i:t_i<t}\alpha e^{-\beta(t-t_i)}
 $$
 
 Parameters:
@@ -199,11 +196,7 @@ $$
 Model:
 
 $$
-\lambda(t)=
-\mu+
-\sum_i
-K e^{a(M_i-M_0)}
- e^{-\beta(t-t_i)}
+\lambda(t)=\mu+\sum_i K e^{a(M_i-M_0)}e^{-\beta(t-t_i)}
 $$
 
 Parameters:
@@ -225,9 +218,7 @@ Validate the model using the time-rescaling theorem.
 For a correct model:
 
 $$
-z_i=
-\int_{t_{i-1}}^{t_i}
-\lambda(t)\,dt
+z_i=\int_{t_{i-1}}^{t_i}\lambda(t)\,dt
 $$
 
 should follow:
@@ -259,11 +250,7 @@ The model combines:
 Model:
 
 $$
-\lambda(t)=
-\mu+
-\sum_i
-K e^{a(M_i-M_0)}
-\frac{1}{(t-t_i+c)^p}
+\lambda(t)=\mu+\sum_i K e^{a(M_i-M_0)}\frac{1}{(t-t_i+c)^p}
 $$
 
 Parameters:
