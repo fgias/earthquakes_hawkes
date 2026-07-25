@@ -156,9 +156,9 @@ $$
 
 Parameters:
 
-* (\mu): background seismic activity
-* (\alpha): earthquake triggering strength
-* (\beta): decay rate of aftershock influence
+* $\mu$: background seismic activity
+* $\alpha$: earthquake triggering strength
+* $\beta$: decay rate of aftershock influence
 
 Tasks:
 
