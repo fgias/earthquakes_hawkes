@@ -208,9 +208,9 @@ $$
 
 Parameters:
 
-* (K): base triggering strength
-* (a): magnitude influence
-* (\beta): temporal decay
+* $K$: base triggering strength
+* $a$: magnitude influence
+* $\beta$: temporal decay
 
 Main result:
 
@@ -268,11 +268,11 @@ $$
 
 Parameters:
 
-* (\mu): background earthquake rate
-* (K): triggering strength
-* (a): magnitude scaling
-* (c): short-time cutoff
-* (p): Omori decay exponent
+* $\mu$: background earthquake rate
+* $K$: triggering strength
+* $a$: magnitude scaling
+* $c$: short-time cutoff
+* $p$: Omori decay exponent
 
 ---
 
@@ -354,4 +354,3 @@ models improve earthquake modelling by capturing:
 * Model selection (AIC/BIC)
 * Time-rescaling theorem
 * Goodness-of-fit testing
-
