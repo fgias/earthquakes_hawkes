@@ -22,16 +22,24 @@ Create the conda environment:
 mamba create -n hawkes-earthquakes python=3.12 numpy pandas matplotlib scipy jupyter seaborn
 ````
 
-Activate:
+Activate the environment:
 
 ```bash
 mamba activate hawkes-earthquakes
+```
+
+Install the project in editable mode:
+
+```bash
+pip install -e .
 ```
 
 Launch Jupyter:
 
 ```bash
 jupyter notebook
+```
+
 ```
 
 ---
