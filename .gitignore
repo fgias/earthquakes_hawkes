@@ -2,3 +2,4 @@
 *.npy
 *.egg-info/
 __pycache__/
+*.png
