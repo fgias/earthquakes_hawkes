@@ -156,19 +156,15 @@ $$
 
 Parameters:
 
-* $\mu$: background seismic activity
-* $\alpha$: earthquake triggering strength
-* $\beta$: decay rate of aftershock influence
+- $\mu$: background seismic activity
+- $\alpha$: earthquake triggering strength
+- $\beta$: decay rate of aftershock influence
 
 Tasks:
 
-* Derive and implement likelihood
-* Fit parameters using maximum likelihood
-* Estimate branching ratio:
-
-$$
-n=\frac{\alpha}{\beta}
-$$
+- Implement the likelihood
+- Estimate parameters using maximum likelihood
+- Analyse earthquake triggering
 
 ---
 
